@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrices</title>
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-titulo">
+            <h1>Matt.es </h1>
+            <img src="/src/img/emoji-mate.png" alt="mate-icono" class="header-imagen">
+        </div>
+    </div>
+
+    <div class="navegacion">
+        <nav class="navegacion-principal">
+            <ul class="navegacion-principal-links">
+                <li>
+                    <a href="index.html" class="link">Temas</a>
+                </li>
+                <li>
+                    <a href="#" class="link">Ejercicios</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="contenedor temas">
+
+        <div class="matrices">
+
+            <div class="hero">
+                <div class="overlay">
+                      <h2 class="hero-subtitulo">Programacion Lineal</h2>
+                </div>
+            </div>
+
+            <section class="contenido">
+                
+                <h3 class="contenido-subtitulo">Definición</h3>
+                <p></P>
+
+                <h3 class="contenido-subtitulo"></h3>
+
+                <div id="tipos-programacion-lineal"></div>
+
+                <h3 class="contenido-subtitulo"></h3>
+
+                <div id="operaciones-programacion-lineal"></div>
+
+                <h3 class="contenido-subtitulo">Ejercicios</h3>
+
+                <p>Ejercicio 1: En un taller mecánico se fabrican dos tipos de piezas, A y B, que deben de seguir los siguientes procesos:</p>
+
+                <ol>
+                    <li class="indice">
+                        <p>Estampado</p>
+                    </li>
+                    <li class="indice">
+                        <p>Soldado</p>
+                    </li>
+                    <li class="indice">
+                        <p>Pintado</p>
+                    </li>
+                </ol>
+                
+                <p>La operación del estampado consiste en preparar partes idénticas de piezas que luego seran soldadas de a pares, formando así la pieza A. El mismo proceso se realiza en la pieza B. Los insumos de equipos para la realización de cada una de las operaciones, expresadas en segundos por pieza son los siguientes: </p>
+
+                <h3 class="contenido-subtitulo">Resolución</h3>
+
+                <p>Primero debo definir el espacio del problema. En este caso tan solo me dedicaré a la producción. Para esp debo de hacer el relevamiento de datos, el cual consiste en fijarse cuanto se tarda en estampar, soldar, pintar, etc. Quedando una tabla tal que: </p>
+
+                <table class="tabla">
+                    <tr>
+                        <th>Actividad</th>
+                        <th>Pieza A</th>
+                        <th>Pieza B</th>
+                        <th>Tiempo disponible (Seg.Semana)</th>
+                    </tr>
+                    <tr>
+                        <td>Estampado</td>
+                        <td>3</td>
+                        <td>8</td>
+                        <td>48000</td>
+                    </tr>
+                    <tr>
+                        <td>Soldado</td>
+                        <td>12</td>
+                        <td>6</td>
+                        <td>42000</td>
+                    </tr>
+                    <tr>
+                        <td>Pintado</td>
+                        <td>9</td>
+                        <td>9</td>
+                        <td>36000</td>
+                    </tr>
+            </table>
+
+            <p>La unidad unitaria es de $4 para la pieza A y de $3 para la pieza B. Se desea establecer el programa semanal de producción que maximice la utilidad del taller respecto a las piezas consideradas</p>
+
+            </section>
+            
+
+        </div>
+
+
+
+    </div>
+
+
+    <script src="build/js/bundle.js"></script>
+</body>
+</html>

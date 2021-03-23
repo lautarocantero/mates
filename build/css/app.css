@@ -471,3 +471,12 @@ li {
     width: 95%; }
     .contenido .apartados:last-of-type {
       border-bottom: none; }
+
+.indice {
+  list-style: decimal; }
+
+.tabla {
+  margin: 0 auto; }
+  .tabla th, .tabla tr, .tabla td {
+    padding: 2rem;
+    text-align: center; }

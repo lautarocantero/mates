@@ -158,21 +158,13 @@
 
         },
         {
-            "nombre":"calcular elemento que no pertenece ni a la fila ni a la columna, para ello armo un cuadrado donde extraigo el pivote, el nuevo y la matris secundaria. Luego opero",
+            "nombre":"calcular elemento que no pertenece ni a la fila ni a la columna, para ello armo un cuadrado donde extraigo el pivote, el nuevo y la matris secundaria. Luego opero y repito",
             "texto":"",
             "img":"/build/img/matris_dieciocho-cuatro.webp",
             "propiedades": ""
 
-        },
-        {
-            "nombre":"continúo",
-            "texto":"",
-            "img":"/build/img/matris_dieciocho-cinco.webp",
-            "propiedades": ""
-
         }
-
-
+        
     ]
     
 }
