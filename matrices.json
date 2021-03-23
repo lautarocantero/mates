@@ -69,17 +69,109 @@
         {
             "nombre":"suma y diferencia de matrices",
             "texto":"La suma de dos matrices A=(aij), B=(bij) de la misma dimensión, es otra matriz S=(sij)  de  la  misma  dimensión  que  los  sumandos  y  con  término  genérico  sij=aij+bij. Por tanto, para poder sumar dos matrices, éstas han de tener la misma dimensión. La suma de las matrices A y B se denota por A+B. ",
-            "img":"/build/img/matris_nueve.webp",
+            "img":"/build/img/matris_diez.webp",
             "propiedades": "Propiedades : <br> 1.A + (B + C) = (A + B) + C (propiedad asociativa)<br>2.A + B = B + A (propiedad conmutativa)<br>3.A + 0 = A (0 es la matriz nula)<br>4.La  matriz –A, que se obtiene cambiando de signo a todos los elementos de A, recibe el nombre de matriz opuesta de A, ya que:A +(–A) = 0.<br>La diferencia de matrices A y B se representa porA–B, y se define como: A–B = A +(–B)."
+
+        },
+        {
+            "nombre":"Producto de una matris por un escalar",
+            "texto":"El producto de una matriz A = (aij) por un número real kes otra matriz B = (bij) de  la  misma  dimensión  que  A  y  talque  cada  elemento  bijde  B  se  obtiene multiplicando aijpor k, es decir, bij= k·aij. ",
+            "img":"/build/img/matris_once.webp",
+            "propiedades": "Propiedades : <br>1.k (A + B) = k A + k B (propiedad distributiva 1ª)<br>2.(k + h)A = k A + h A (propiedad distributiva 2ª)<br>3.k (h A)= (k h) A (propiedad asociativa mixta)<br>4.1·A = A (elemento unidad) <br> Propiedades simplificativas: <br>1.A + C = B + CA = B.<br>2.k A = k BA = B si k es distinto de 0.<br>3.k A = h Ah = k si A es distinto de 0."
+
+        },
+        {
+            "nombre":"Producto de matrices",
+            "texto":"Dadas  dos  matrices  A  y  B,  su  producto  es  otra  matriz  P  cuyos  elementos  se obtienen multiplicando las filas de A por las columnas de B. <br>Es evidente que el número de columnas de A debe coincidir con el número de filas de B.Es más, si A tiene dimensión m *ny B dimensión n *p, la matrizP será de orden m*p.",
+            "img":"/build/img/matris_doce.webp",
+            "propiedades": ""
 
         },
         {
             "nombre":"",
             "texto":"",
-            "img":"",
+            "img":"/build/img/matris_trece.webp",
+            "propiedades": ""
+
+        },
+        {
+            "nombre":"",
+            "texto":"",
+            "img":"/build/img/matris_catorce.webp",
+            "propiedades": ""
+
+        },
+        {
+            "nombre":"matriz inversible",
+            "texto":"Una matriz cuadrada que posee inversa se dice que es inversibleo regular; en caso contrario recibe el nombre de singular.",
+            "img":"/build/img/matris_quince.webp",
+            "propiedades": "Propiedades: 1.La matriz inversa, si existe, es única"
+
+        },
+        {
+            "nombre":"calcular matriz inversible por metodo de Gauss Jordan",
+            "texto":"El  método  de Gauss-Jordanpara  calcular  la  matriz  inversa  de  una  dada  se basa en una triangularización superior y luego otra inferior de la matriz a la cual se le quiere calcular la inversa.Debo tomar 4 elementos de la matriz, de los cuales uno va a ser el pivote (elemento que quiero transformar en uno) y los otros seran los demas elementos en los que operare.",
+            "img":"/build/img/matris_dieciseis.webp",
+            "propiedades": ""
+
+        },
+        {
+            "nombre":"",
+            "texto":"transformar la fila del pivote, dividiendo todos los elementos de la fila completa por el pivote",
+            "img":"/build/img/matris_diecisiete-uno.webp",
+            "propiedades": ""
+
+        },
+        {
+            "nombre":"",
+            "texto":"transormar la columna del pivote en ceros, excepto el pivote ",
+            "img":"/build/img/matris_diecisiete-dos.webp",
+            "propiedades": ""
+
+        },
+        {
+            "nombre":"",
+            "texto":"ver que sucede con los elementos que no pertenecen ni a la fila ni a la columna del pivote",
+            "img":"/build/img/matris_diecisiete-tres.webp",
+            "propiedades": ""
+
+        },
+        {
+            "nombre":"",
+            "texto":"transformo los elementos del pivote, dividiendolos por el propio pivote",
+            "img":"/build/img/matris_dieciocho.webp",
+            "propiedades": ""
+
+        },
+        {
+            "nombre":"transformo los demas elementos en cero, para ello tomo el elemento pivote (4) y el numero en el cual quiero tener un cero (3) y los duplico. Ahora tendre los elementos pivote(4) copia pivote(4), nuevo (3) y nuevo copia (3). Debo hacer la cuenta: nuevo copia - nuevo * copia pivote / pivote. que dara como serultado cero y lo colocare en su lugar respectivo.",
+            "texto":"",
+            "img":"/build/img/matris_dieciocho-dos.webp",
+            "propiedades": ""
+
+        },
+        {
+            "nombre":"",
+            "texto":"",
+            "img":"/build/img/matris_dieciocho-tres.webp",
+            "propiedades": ""
+
+        },
+        {
+            "nombre":"calcular elemento que no pertenece ni a la fila ni a la columna, para ello armo un cuadrado donde extraigo el pivote, el nuevo y la matris secundaria. Luego opero",
+            "texto":"",
+            "img":"/build/img/matris_dieciocho-cuatro.webp",
+            "propiedades": ""
+
+        },
+        {
+            "nombre":"continúo",
+            "texto":"",
+            "img":"/build/img/matris_dieciocho-cinco.webp",
             "propiedades": ""
 
         }
+
 
     ]
     
