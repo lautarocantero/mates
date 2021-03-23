@@ -1,0 +1,36 @@
+
+
+.temas{
+    background-color: $claro;
+    margin-top: 2rem;
+
+    .temas-temario{
+        color: $oscuro_uno;
+        padding: 2rem;
+        text-align: center;
+
+        .temario-titulo{
+            margin-bottom: 2rem;
+        }
+
+        .navegacion-temario{
+            text-align: left;
+
+            li{
+                list-style:upper-alpha;
+            }
+        }
+
+    }
+
+}
+
+.temario-link{
+    font-size: 2rem;
+    font-weight: $bold;
+
+    .icono-link{
+        height: 3vh;
+    }
+
+}

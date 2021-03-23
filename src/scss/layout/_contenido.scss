@@ -1,0 +1,32 @@
+
+
+.contenido{
+
+    border: 1px solid $primario_claro;
+    border-top: none;
+
+    .contenido-subtitulo{
+        color: $oscuro_uno;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 0 auto 2rem;
+        padding: 1rem;
+
+    }
+
+    p{
+        padding: 2rem;
+    }
+
+    .apartados{
+        border-bottom: 1px solid $primario_oscuro;
+        margin: 0 auto;
+        width: 95%;
+
+        &:last-of-type{
+            border-bottom: none;
+        }
+    }
+    
+
+}

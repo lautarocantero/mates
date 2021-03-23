@@ -1,0 +1,74 @@
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: $fuente_principal;
+    font-size: 1.6rem;
+    background-color: $primario_claro;
+
+    animation: cambiar 120s infinite;
+}
+
+@keyframes cambiar{
+    0%{
+        background-color: $primario_claro;
+    }
+    49%{
+        background-color: $secundario_oscuro;
+    }
+    99%{
+        background-color: $primario_claro;
+    }
+}
+
+p{
+    font-size: 2rem;
+    margin: 0;
+}
+
+.contenedor{
+    max-width: 120rem;
+    width: 95%;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: $rosa_claro;
+}
+
+img{
+    max-width: 100%;
+}
+
+h1,h2,h3{
+    margin: 0;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3.6rem;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+ul{
+    margin: 0 auto;
+}
+
+li{
+    list-style: none;
+}
+

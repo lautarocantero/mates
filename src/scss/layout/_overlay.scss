@@ -1,0 +1,30 @@
+
+
+.overlay{
+    background-color: rgba($color: $claro, $alpha: 0.3);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border: 1px solid $primario_oscuro;
+    border-bottom: none;
+
+    .hero-subtitulo{
+        background-color: $claro;
+        color: $oscuro_tres;
+        display: block;
+        font-size: 5rem;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 8rem auto;
+
+    }
+
+    @include tablet(){
+        .hero-subtitulo{
+            font-size: 7rem;
+            margin: 13rem auto;
+        }
+    }
+
+}
+

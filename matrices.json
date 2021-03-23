@@ -1,0 +1,86 @@
+{
+    "matris" : [
+        {
+            "tipo": "Matriz fila",
+            "texto": "Es una matriz que sólo tiene una fila, es decir m =1y por tanto es de orden 1×n.",
+            "img": "/build/img/matris_dos.webp"
+        },
+        {
+            "tipo": "Matriz columna",
+            "texto": "Es una matriz que solo tiene una columna, es decir, n =1y por tanto es de orden m ×1. ",
+            "img": "/build/img/matris_tres.webp"
+        },
+        {
+            "tipo": "Matriz cuadrada",
+            "texto": "Es  aquella  que  tiene  el  mismo  número  de  filas  que  de columnas, es decir m = n. En estos casos se diceque la matriz cuadrada es de orden n, y no n × n. Los  elementos  aijcon  i  =  j,  o  sea  aiiforman  la  llamada diagonal  principalde  la matriz cuadrada, y los elementos aijcon i + j = n +1la diagonal secundaria.  ",
+            "img": "/build/img/matris_cuatro.webp"
+        },
+        {
+            "tipo": "Matriz traspuesta",
+            "texto": "Dada una matriz A, se llama traspuesta de A, y se representa por At,  a la  matriz que  se  obtiene  cambiando  filas  por  columnas.  La  primera  fila de A es la primera fila de At, la segunda fila de A es la segunda columna de At, etc. De la definición se deduce que si A es de orden m ×n, entonces Ates de orden n ×m.  ",
+            "img": "/build/img/matris_cinco.webp"
+        },
+        {
+            "tipo": "Matriz simetrica",
+            "texto": "Una matriz cuadrada A es simétrica si A = At, es decir, si aij= aji, para todo i,j. ",
+            "img": "/build/img/matris_seis.webp"
+        },
+        {
+            "tipo": "Matriz antisimetrica",
+            "texto": "Una matriz cuadrada es antisimétricasi A = –At, es decir, si aij= –aji, para todoi, j. ",
+            "img": "/build/img/matris_siete.webp"
+        },
+        {
+            "tipo": "Matriz nula",
+            "texto": " es  aquella  que tiene todos  sus  elementos iguales  a 0,yse representa por 0. ",
+            "img": "/build/img/matris_siete.webp"
+        },
+        {
+            "tipo": "Matriz diagonal",
+            "texto": "Es  una  matriz  cuadrada,  en  la  que  todos  los  elementos  no pertenecientes a la diagonal principal son nulos. ",
+            "img": "/build/img/matris_siete.webp"
+        },
+        {
+            "tipo": "Matriz escalar",
+            "texto": "Es  una  matriz  diagonal  con todos  los  elementos  de  la  diagonal iguales.  ",
+            "img": "/build/img/matris_siete.webp"
+        },
+        {
+            "tipo": "Matriz identidad o unidad",
+            "texto": "Es  una  matriz  escalar  con  los  elementos  de  la diagonal principal iguales a 1. ",
+            "img": "/build/img/matris_siete.webp"
+        },
+        {
+            "tipo": "Matriz triangular",
+            "texto": "Es una matriz cuadrada que tiene nulos todos los elementos que  están  a  un  mismo  lado  de  la  diagonal  principal.  Las  matrices  triangulares pueden ser de dos tipos:  ",
+            "img": "/build/img/matris_ocho.webp"
+        }
+
+    ],
+    "operaciones": [
+
+        {
+            "nombre":"trasposición de matrices",
+            "texto":"Dada una matriz de orden m x n, A = (aij), se llama matriz traspuesta de A, y se representa por At, a la matriz que se obtiene cambiando las filas por las columnas (o viceversa) en la matriz A. Es decir: ",
+            "img":"/build/img/matris_nueve.webp",
+            "propiedades": "Propiedades : <br>1.Dada una matriz A, siempre existe su traspuesta y además, ésta es única. <br> 2.(At)t= A."
+
+        },
+        {
+            "nombre":"suma y diferencia de matrices",
+            "texto":"La suma de dos matrices A=(aij), B=(bij) de la misma dimensión, es otra matriz S=(sij)  de  la  misma  dimensión  que  los  sumandos  y  con  término  genérico  sij=aij+bij. Por tanto, para poder sumar dos matrices, éstas han de tener la misma dimensión. La suma de las matrices A y B se denota por A+B. ",
+            "img":"/build/img/matris_nueve.webp",
+            "propiedades": "Propiedades : <br> 1.A + (B + C) = (A + B) + C (propiedad asociativa)<br>2.A + B = B + A (propiedad conmutativa)<br>3.A + 0 = A (0 es la matriz nula)<br>4.La  matriz –A, que se obtiene cambiando de signo a todos los elementos de A, recibe el nombre de matriz opuesta de A, ya que:A +(–A) = 0.<br>La diferencia de matrices A y B se representa porA–B, y se define como: A–B = A +(–B)."
+
+        },
+        {
+            "nombre":"",
+            "texto":"",
+            "img":"",
+            "propiedades": ""
+
+        }
+
+    ]
+    
+}

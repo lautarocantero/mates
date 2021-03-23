@@ -1,0 +1,24 @@
+
+
+.header{
+    animation: cambiar 120s infinite;
+    background-color: $primario_claro;
+    color: $claro;
+    padding: 0.2rem;
+    .header-titulo{
+        font-family: $fuente_principal;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .header-imagen{
+            height: 10vh;
+            margin-bottom: 1rem;
+        }
+    }
+    
+
+
+
+}

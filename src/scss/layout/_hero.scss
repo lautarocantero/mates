@@ -1,0 +1,17 @@
+
+
+.hero{
+    position: relative;
+    background-image: url(/build/img/book-4126483_1920.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+
+}
+
+@include tablet(){
+    .hero{
+        background-position: center center;
+        height: 50vh;
+    }
+}
