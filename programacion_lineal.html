@@ -51,7 +51,7 @@
 
                 <div id="operaciones-programacion-lineal"></div>
 
-                <h3 class="contenido-subtitulo">Ejercicios</h3>
+                <h3 class="contenido-subtitulo">Explicación</h3>
 
                 <p>Ejercicio 1: En un taller mecánico se fabrican dos tipos de piezas, A y B, que deben de seguir los siguientes procesos:</p>
 
@@ -147,6 +147,40 @@
 
                 <p>La minima cantidad de ambas piezas que puedo hacer es ninguna, <strong>Condicion de no negatividad</strong> : 
                 <br>X1 >= 0 <br> X2 >=0 </p>
+
+                <p>Ahora falta ver que pasa con el funcional, es decir aquella funcion lineal que se trabaja con las mismas variables que me permite llevar al maximo o al minimo la utilidad que tendre con la produccion que vaya a hacer sin saber cuanto sera <strong>condiciones de funcional</strong>  .</p>
+
+                <p>Z = 4* X1 + 3* X2 -> maximizar (no olvidar poner esto)</p>
+
+                <p>Se ha completado el <strong>modelo canónico</strong> debido a que ahora cuenta con condicion de vinculo, condicion de no negatividad y condicion de funcionalidad </p>
+
+                <h3 class="contenido-subtitulo">Paso 2 del modelo</h3>
+
+                <p>Transformar el modelo canoníco que solo tiene desigualdades en un modelo que va a tener solo igualdades <strong>modelo estandar</strong>, es decir transformar de inecuaciones a ecuaciones</p>
+
+                <h3 class="contenido-subtitulo">Modelo Estadar</h4>
+
+                <p>Yo tengo 3 semiplanos diferentes</p>
+
+                <P><br> 6 X1 + 16 X2 <= 48000</P>
+                <P>12 X1 + 6 X2 <= 42000</P>
+                <P>9 X1 + 9 X2 <= 36000</P>
+
+                <p>Y semiplanos referidos a X1 y X2</p>
+                <p><br>X1 >= 0 <br> X2 >=0 </p>
+
+                <p>Entonces transformo: </p>
+
+                <P><br> 6 X1 + 16 X2 = 48000</P>
+                <P>12 X1 + 6 X2 = 42000</P>
+                <P>9 X1 + 9 X2 = 36000</P>
+
+                <p>Ahora debo agregarle a cada uno una variable que complete el valor que falta para llegar al resultado</p>
+
+                <P><br> 6 * <span class="destacar-3">2000</span> + 16 * <span class="destacar-3">1000</span> = 28000</P>
+                <p><br>Faltan <span class="destacar-3">20000</span></p>
+                <p>Por lo tanto agrego una varible más y tengo 6* X1 + 16* X2 + X3 = 48000 </p>
+
 
 
             </section>
