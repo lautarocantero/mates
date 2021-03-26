@@ -98,9 +98,56 @@
                         <td>9</td>
                         <td>36000</td>
                     </tr>
-            </table>
+                </table>
 
-            <p>La unidad unitaria es de $4 para la pieza A y de $3 para la pieza B. Se desea establecer el programa semanal de producción que maximice la utilidad del taller respecto a las piezas consideradas</p>
+                <p>La unidad unitaria es de $4 para la pieza A y de $3 para la pieza B. Se desea establecer el programa semanal de 
+                producción que maximice la utilidad del taller respecto a las piezas consideradas. Ahora tenemos 2 piezas que ambas 
+                tardan 3 segundos en el caso de la pieza A y 16 segundos en el caso de la pieza B</p>
+
+                <table class="tabla">
+                    <tr>
+                        <th>Actividad</th>
+                        <th>Pieza A</th>
+                        <th>Pieza B</th>
+                        <th>Tiempo disponible (Seg.Semana)</th>
+                    </tr>
+                    <tr>
+                        <td>Estampado</td>
+                        <td>3*2</td>
+                        <td>8*2</td>
+                        <td>48000</td>
+                    </tr>
+                    <tr>
+                        <td>Soldado</td>
+                        <td>12</td>
+                        <td>6</td>
+                        <td>42000</td>
+                    </tr>
+                    <tr>
+                        <td>Pintado</td>
+                        <td>9</td>
+                        <td>9</td>
+                        <td>36000</td>
+                    </tr>
+                </table>
+
+                <p>Una vez conocida esta información, puedo empezar a armar el modelo.</p>
+                <p>X1: Cantidad de piezas A producidas por semana.</p>
+                <p>X2: Cantidad de piezas B producidas por semana.</p>
+
+                <p>En este momento pueden presentarse ecuaciones o inecuaciones y este primer modelo se llama <strong>Modelo Canónico</strong> </p>
+                <p>Yo se que necesito <span class="destacar">6</span> segundos para fabricar una pieza A entera, y la incognita
+                <span class="destacar-2">X1</span> representa la cantidad de piezas que necesito producir por semana, por lo 
+                tanto multiplicar 6 * X1 me dara el total de piezas que puedo producir en una semana, idem para las piezas B.
+                Así mismo se que no tengo mas de <span class="destacar-3">48000</span> segundos por semana, por lo tanto no puede ser mayor a este limite</p>
+                
+                <P>Quedando: <br> <span class="destacar">6</span> <span class="destacar-2">X1</span> + <span class="destacar">16</span> <span class="destacar-2">X2</span> <= <span class="destacar-3">48000</span> <-- Estampado</P>
+                <P><span class="destacar">12</span> <span class="destacar-2">X1</span> + <span class="destacar">6</span> <span class="destacar-2">X2</span> <= <span class="destacar-3">42000</span> <--Soldado </P>
+                <P><span class="destacar">9</span> <span class="destacar-2">X1</span> + <span class="destacar">9</span> <span class="destacar-2">X2</span> <= <span class="destacar-3">36000</span> <--Pintado </P>
+
+                <p>La minima cantidad de ambas piezas que puedo hacer es ninguna, <strong>Condicion de no negatividad</strong> : 
+                <br>X1 >= 0 <br> X2 >=0 </p>
+
 
             </section>
             

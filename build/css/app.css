@@ -327,6 +327,7 @@ body {
 
 p {
   font-size: 2rem;
+  font-weight: 500;
   margin: 0; }
 
 .contenedor {
@@ -480,3 +481,12 @@ li {
   .tabla th, .tabla tr, .tabla td {
     padding: 2rem;
     text-align: center; }
+
+.destacar {
+  color: #C01752; }
+
+.destacar-2 {
+  color: #31A4D1; }
+
+.destacar-3 {
+  color: #FF5300; }
